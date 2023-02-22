@@ -4,7 +4,7 @@ First project for learning react native. Create React Native App with Expo CLI, 
 
 This is a basic React Native app that implements a to-do list for adding and deleting goals. 
 
-When the "Add New Goal" button is pressed, the setModalVisible function is called to set the modalVisible state to true, which in turn makes the  modal visible. When the user enters a new goal and presses the "ADD GOAL" button, add the new goal to the goals state. The list of goals is displayed using a FlatList component.
+When the "Add New Goal" button is pressed, the "setModalIsVisible" function is called to set the "modalIsVisible" state to true, which in turn makes the  modal visible. When the user enters a new goal and presses the "ADD GOAL" button, add the new goal to the goals state. The list of goals is displayed using a FlatList component.
 
 The user can also delete a goal by pressing the each goal in the list. This triggers the "onDeleteHandler" function, which filters the deleted goal out of the goals state.
 
